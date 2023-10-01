@@ -1,11 +1,15 @@
 import sys
 
+from telethon import TelegramClient
+
 from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
 from telethon.sessions import StringSession
 
 from HellConfig import Config
 
 __version__ = "0.01"
+
+loop = None
 
 
 if Config.STRING_SESSION:
