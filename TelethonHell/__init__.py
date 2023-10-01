@@ -24,7 +24,7 @@ if not Config.DATABASE_URL:
     LOGS.warning("Please fill var DATABASE_URL to continue.")
     quit(1)
 
-if not Config.HELLBOT_SESSION:
+if not Config.STRING_SESSION:
     LOGS.warning("Please fill var HELLBOT_SESSION to continue.")
     quit(1)
 
