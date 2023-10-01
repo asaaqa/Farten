@@ -16,7 +16,7 @@ HARMFUL = [
     "sys.stderr",
     "subprocess",
     "session.save()",
-    "HELLBOT_SESSION",
+    "STRING_SESSION",
     "INSTAGRAM_SESSION",
     "DATABASE_URL",
     "BOT_TOKEN",
