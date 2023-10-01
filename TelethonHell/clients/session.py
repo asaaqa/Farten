@@ -13,9 +13,9 @@ loop = None
 
 
 if Config.STRING_SESSION:
-    session = StringSession(validate_session(Config.STRING_SESSION))
+    session = StringSession(Config.STRING_SESSION, LOGS)
 else:
-    session = "TelethonHell"
+    session = "Farten"
 
 try:
     Hell = TelegramClient(
