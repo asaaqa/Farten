@@ -1,8 +1,9 @@
 import sys
 
 from telethon import TelegramClient
-
 from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
+
+from .bothseesion import bothseesion
 from telethon.sessions import StringSession
 
 from HellConfig import Config
