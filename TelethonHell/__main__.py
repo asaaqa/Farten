@@ -5,7 +5,7 @@ from pathlib import Path
 
 from HellConfig import Config
 
-from TelethonHell.clients.logger import LOGGER as LOGS
+from TelethonHell.clients.logger import logging
 from TelethonHell.clients.session import H2, H3, H4, H5, Hell, HellBot
 from TelethonHell.utils.plug import load_module, plug_channel
 from TelethonHell.utils.startup import (join_it, logger_check, start_msg,
