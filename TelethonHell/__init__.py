@@ -3,7 +3,7 @@ import time
 import heroku3
 from HellConfig import Config
 
-from TelethonHell.clients.logger import LOGGER as LOGS
+from TelethonHell.clients.logger import logging
 
 StartTime = time.time()
 
