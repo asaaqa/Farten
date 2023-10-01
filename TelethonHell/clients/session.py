@@ -1,23 +1,16 @@
 import sys
 
-from telethon import TelegramClient
 from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
 from telethon.sessions import StringSession
 
-from HellConfig import Config
+from ..Config import Config
+from .client import CodexClient
+
+__version__ = "0.01"
 
 
-def validate_session(session):
-    if "==hell" and "bot==" in session.lower():
-        new_session = session[6:-5]
-        return str(new_session)
-    else:
-        print(f"HELLBOT SESSION - Wrong session string!")
-        sys.exit()
-
-
-if Config.HELLBOT_SESSION:
-    session = StringSession(validate_session(Config.HELLBOT_SESSION))
+if Config.STRING_SESSION:
+    session = StringSession(validate_session(Config.STRING_SESSION))
 else:
     session = "hellbot"
 
