@@ -11,7 +11,7 @@ __version__ = "0.01"
 if Config.STRING_SESSION:
     session = StringSession(validate_session(Config.STRING_SESSION))
 else:
-    session = "hellbot"
+    session = "TelethonHell"
 
 try:
     Hell = TelegramClient(
