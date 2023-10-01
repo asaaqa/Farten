@@ -1,5 +1,5 @@
 <h1 align="center">
-  <b>†hê Hêllẞø† 🇮🇳</b>
+  <b>αsααq αℓτωєєℓ🇾🇪</b>
 </h1>
 
 <p align="center">
@@ -7,7 +7,7 @@
 </p>
 
 <h6 align="center">
-  <b>⚡ ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt ⚡</b>
+  <b>⚡ سورس الامبراطور ⚡</b>
 </h6>
 
 <h3 align="center">
@@ -19,7 +19,7 @@
 <details><summary><h1><b>Deploy Alternatives 🥷🏻</h1></b></summary>
 
   - 
-    [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/The-HellBot/Plugins-T&branch=master&name=hellbot-koyeb&run_command=bash+runkoyeb&env[APP_ID]&env[API_HASH]&env[BOT_TOKEN]&env[HELLBOT_SESSION]&env[DATABASE_URL])
+    [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/asaaqa/Plugins-T&branch=master&name=hellbot-koyeb&run_command=bash+runkoyeb&env[APP_ID]&env[API_HASH]&env[BOT_TOKEN]&env[HELLBOT_SESSION]&env[DATABASE_URL])
 
 </details>
 
